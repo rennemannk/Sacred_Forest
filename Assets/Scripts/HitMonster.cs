@@ -7,6 +7,7 @@ public class HitMonster : MonoBehaviour
 
     public Material red;
     public Material blue;
+
     bool hitOne = true;
     bool hitTwo = false;
     bool hitThree = false;
