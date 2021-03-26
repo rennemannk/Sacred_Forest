@@ -28,7 +28,7 @@ public class HitMonster : MonoBehaviour
             }
             else if (hitThree == true) {
                 Destroy(gameObject);
-
+                Counter.gscore += 1; //add score
             }
 
         }
