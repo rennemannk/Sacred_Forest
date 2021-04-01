@@ -8,6 +8,8 @@ public class Counter : MonoBehaviour
     public static int gscore = 0; 
     public Text scoreText;
     public string levelToLoad;
+
+    public GameObject portal;
     
     // Start is called before the first frame update
     void Start()
@@ -20,7 +22,8 @@ public class Counter : MonoBehaviour
     {
         scoreText.text = "Monsters: " + gscore;
         if (gscore == 4){
-            Application.LoadLevel(levelToLoad);
+            portal.SetActive(true);
+            //Application.LoadLevel(levelToLoad);
         }
     }
 }
