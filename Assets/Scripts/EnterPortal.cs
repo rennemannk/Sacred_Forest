@@ -8,7 +8,7 @@ public class EnterPortal : MonoBehaviour
 
     void onTriggerEnter(Collider col)
     {
-        if (col.gameObject.tag == "portal")
+        if (col.gameObject.tag == "Player")
         {
             Application.LoadLevel(levelToLoad);
         }
