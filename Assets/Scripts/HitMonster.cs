@@ -40,9 +40,8 @@ public class HitMonster : MonoBehaviour
                 damageIndicator.fillAmount += .25f;
                 Destroy(gameObject);
                 Counter.gscore += 1; //add score
+                this.book.FoundCreature(this.creatureType);
             }
-
-            this.book.FoundCreature(this.creatureType);
         }
     }
 }

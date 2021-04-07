@@ -755,7 +755,7 @@ MonoBehaviour:
   blue: {fileID: 2100000, guid: 35390e95c72194d5fb530130dd94d53e, type: 2}
   damageIndicator: {fileID: 416550118}
   coolingDown: 1
-  book: {fileID: 0}
+  book: {fileID: 1320220139}
   creatureType: 0
 --- !u!65 &93345283
 BoxCollider:
@@ -3932,7 +3932,7 @@ MonoBehaviour:
   blue: {fileID: 2100000, guid: 35390e95c72194d5fb530130dd94d53e, type: 2}
   damageIndicator: {fileID: 416550118}
   coolingDown: 1
-  book: {fileID: 0}
+  book: {fileID: 1320220139}
   creatureType: 0
 --- !u!65 &571160365
 BoxCollider:
@@ -13732,7 +13732,7 @@ MonoBehaviour:
   blue: {fileID: 2100000, guid: 35390e95c72194d5fb530130dd94d53e, type: 2}
   damageIndicator: {fileID: 416550118}
   coolingDown: 1
-  book: {fileID: 0}
+  book: {fileID: 1320220139}
   creatureType: 0
 --- !u!65 &2125687948
 BoxCollider:
