@@ -1,3 +1,7 @@
+using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
+using System;
+using System.Globalization;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -38,6 +42,20 @@ public class Book : MonoBehaviour
     [Tooltip("The card")]
     public GameObject card6;
 
+    // creature counters
+    public Text catCountText;
+    public int catCount = 0;
+    public Text duckCountText;
+    public int duckCount = 0;
+    public Text penguinCountText;
+    public int penguinCount = 0;
+    public Text flowerCountText;
+    public int flowerCount = 0;
+    public Text moleCountText;
+    public int moleCount = 0;
+    public Text sheepCountText;
+    public int sheepCount = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,67 +75,104 @@ public class Book : MonoBehaviour
         }
     }
 
+    // Call this when a creature is found.
+    public void FoundCreature(CreatureType creatureType) {
+        switch (creatureType) {
+            case CreatureType.CAT:
+                catCount++;
+                catCountText.text = catCount.ToString();
+                showCard1 = true;
+                break;
+            case CreatureType.DUCK:
+                duckCount++;
+                duckCountText.text = duckCount.ToString();
+                showCard2 = true;
+                break;
+            case CreatureType.PENGUIN:
+                penguinCount++;
+                penguinCountText.text = penguinCount.ToString();
+                showCard3 = true;
+                break;
+            case CreatureType.FLOWER:
+                flowerCount++;
+                flowerCountText.text = flowerCount.ToString();
+                showCard4 = true;
+                break;
+            case CreatureType.MOLE:
+                moleCount++;
+                moleCountText.text = moleCount.ToString();
+                showCard5 = true;
+                break;
+            case CreatureType.SHEEP:
+                sheepCount++;
+                sheepCountText.text = sheepCount.ToString();
+                showCard6 = true;
+                break;
+        }
+        toggleCardsVisibility();
+    }
+
     // Hide or show the book.
     private void toggleBookVisibility()
     {
-        book.SetActive(!book.activeInHierarchy);
+        book.SetActive(!book.activeInHierarchy);        
     }
 
     // Hide or show the cards.
     private void toggleCardsVisibility()
     {
-        if (!showCard1)
-        {
-            card1.SetActive(false);
-        }
-        else
+        if (showCard1)
         {
             card1.SetActive(true);
         }
-
-        if (!showCard2)
-        {
-            card2.SetActive(false);
-        }
         else
+        {
+            card1.SetActive(false);
+        }
+
+        if (showCard2)
         {
             card2.SetActive(true);
         }
-
-        if (!showCard3)
-        {
-            card3.SetActive(false);
-        }
         else
+        {
+            card2.SetActive(false);
+        }
+
+        if (showCard3)
         {
             card3.SetActive(true);
         }
-
-        if (!showCard4)
-        {
-            card4.SetActive(false);
-        }
         else
+        {
+            card3.SetActive(false);
+        }
+
+        if (showCard4)
         {
             card4.SetActive(true);
         }
-
-        if (!showCard5)
-        {
-            card5.SetActive(false);
-        }
         else
+        {
+            card4.SetActive(false);
+        }
+
+        if (showCard5)
         {
             card5.SetActive(true);
         }
-
-        if (!showCard6)
+        else
         {
-            card6.SetActive(false);
+            card5.SetActive(false);
+        }
+
+        if (showCard6)
+        {
+            card6.SetActive(true);
         }
         else
         {
-            card6.SetActive(true);
+            card6.SetActive(false);
         }
     }
 }
