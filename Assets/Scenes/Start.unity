@@ -952,7 +952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 255e86f490af2485482c9ea8afe1f9a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: Demo_scene01
+  levelToLoad: Level_Day
 --- !u!4 &2122871332
 Transform:
   m_ObjectHideFlags: 0
