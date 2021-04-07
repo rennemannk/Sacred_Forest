@@ -6,10 +6,11 @@ public class EnterPortal : MonoBehaviour
 {
     public string levelToLoad;
 
-    void onTriggerEnter(Collider col)
+    public void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.tag == "Player")
         {
+            Destroy(gameObject);
             Application.LoadLevel(levelToLoad);
         }
     }

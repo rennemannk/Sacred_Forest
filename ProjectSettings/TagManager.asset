@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Ball
   - Monster
-  - Terrian
+  - Terrain
   layers:
   - Default
   - TransparentFX

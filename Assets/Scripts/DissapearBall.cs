@@ -13,5 +13,11 @@ public class DissapearBall : MonoBehaviour
             Destroy(gameObject);
 
         }
+
+        if (col.gameObject.tag == "Terrain ")
+        {
+            Destroy(gameObject);
+
+        }
     }
 }
