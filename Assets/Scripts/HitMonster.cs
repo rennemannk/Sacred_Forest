@@ -14,7 +14,11 @@ public class HitMonster : MonoBehaviour
     bool hitThree = false;
     public Image damageIndicator;
     public bool coolingDown = true;
-    
+
+    [Tooltip("The book")]
+    public Book book;
+    [Tooltip("The type or category of creature")]
+    public CreatureType creatureType;
 
 
     void OnCollisionEnter(Collision col) {
@@ -38,6 +42,7 @@ public class HitMonster : MonoBehaviour
                 Counter.gscore += 1; //add score
             }
 
+            this.book.FoundCreature(this.creatureType);
         }
     }
 }
