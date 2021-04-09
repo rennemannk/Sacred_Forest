@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class Counter : MonoBehaviour
 {
     public static int gscore = 0; 
-    public Text scoreText;
     public string levelToLoad;
 
     public GameObject portal;
@@ -20,7 +19,6 @@ public class Counter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = "Monsters: " + gscore;
         if (gscore == 4){
             portal.SetActive(true);
             //Application.LoadLevel(levelToLoad);

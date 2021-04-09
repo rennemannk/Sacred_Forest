@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RemoveText : MonoBehaviour
 {
-    public GameObject Text;
+    public GameObject IntroText;
     public bool TextOn = true;
 
     // Start is called before the first frame update
@@ -17,8 +17,8 @@ public class RemoveText : MonoBehaviour
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.F)){
-            Text.SetActive(false);
+            Destroy(IntroText);
             TextOn = false;
     }
-}
+    }
 }
