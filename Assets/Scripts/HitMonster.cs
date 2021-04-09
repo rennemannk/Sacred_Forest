@@ -16,6 +16,10 @@ public class HitMonster : MonoBehaviour
     public bool coolingDown = true;
     public static bool monsterDown = false;
 
+    public GameObject heart1;
+    public GameObject heart2;
+    public GameObject heart3;
+
     [Tooltip("The book")]
     public Book book;
     [Tooltip("The type or category of creature")]
@@ -29,12 +33,14 @@ public class HitMonster : MonoBehaviour
                 gameObject.GetComponent<Renderer>().material = red;
                 hitTwo = true;
                 hitOne = false;
+                Destroy(heart3);
                 
             }
             else if (hitTwo == true) {
                 gameObject.GetComponent<Renderer>().material = blue;
                 hitThree = true;
                 hitTwo = false;
+                Destroy(heart2);
                 
             }
             else if (hitThree == true) {
@@ -42,6 +48,7 @@ public class HitMonster : MonoBehaviour
                 Destroy(gameObject);
                 Counter.gscore += 1; //add score
                 monsterDown = true;
+                Destroy(heart1);
                 this.book.FoundCreature(this.creatureType);
             }
         }
