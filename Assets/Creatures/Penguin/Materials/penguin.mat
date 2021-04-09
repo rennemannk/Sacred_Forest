@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 322db05e6d7ee334089564ca49ac3f91, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5228adb8b516c478689d313afe332b9d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -105,4 +105,3 @@ Material:
     - _outline_color: {r: 0.007185565, g: 0.088208415, b: 0.9161596, a: 1}
     - _scetch_color: {r: 0.40304497, g: 0.62092674, b: 0.91764706, a: 1}
     - _shadow_color: {r: 0.91764706, g: 0.8422349, b: 0.66124564, a: 1}
-  m_BuildTextureStacks: []

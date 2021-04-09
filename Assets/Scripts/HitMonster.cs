@@ -14,6 +14,7 @@ public class HitMonster : MonoBehaviour
     bool hitThree = false;
     public Image damageIndicator;
     public bool coolingDown = true;
+    public static bool monsterDown = false;
 
     [Tooltip("The book")]
     public Book book;
@@ -40,6 +41,7 @@ public class HitMonster : MonoBehaviour
                 damageIndicator.fillAmount += .25f;
                 Destroy(gameObject);
                 Counter.gscore += 1; //add score
+                monsterDown = true;
                 this.book.FoundCreature(this.creatureType);
             }
         }
