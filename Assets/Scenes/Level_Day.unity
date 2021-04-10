@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.39625615, g: 0.67180574, b: 0.8663715, a: 1}
+  m_IndirectSpecularColor: {r: 0.39623645, g: 0.67180836, b: 0.8663612, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10192,7 +10192,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Nice job! You can look at the monsters you catch in your inventory-just
-    use the glowing button. (Press F to continue)
+    use your mouse to click the glowing button. (Press F to continue)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a8716c1d18701734897feeaa516a623f, type: 2}
   m_sharedMaterial: {fileID: 4029437917481272478, guid: a8716c1d18701734897feeaa516a623f,
