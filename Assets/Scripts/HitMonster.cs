@@ -6,9 +6,10 @@ using UnityEngine.UI;
 public class HitMonster : MonoBehaviour
 {
 
-    public Material red;
-    public Material blue;
+ 
 
+    public float numOfMonster;
+     
     bool hitOne = true;
     bool hitTwo = false;
     bool hitThree = false;
@@ -30,21 +31,23 @@ public class HitMonster : MonoBehaviour
         if (col.gameObject.tag == "Ball") {
 
             if (hitOne == true) {
-                gameObject.GetComponent<Renderer>().material = red;
+                
                 hitTwo = true;
                 hitOne = false;
                 Destroy(heart3);
                 
             }
             else if (hitTwo == true) {
-                gameObject.GetComponent<Renderer>().material = blue;
+                
                 hitThree = true;
                 hitTwo = false;
                 Destroy(heart2);
                 
             }
             else if (hitThree == true) {
-                damageIndicator.fillAmount += .25f;
+             
+                damageIndicator.fillAmount += numOfMonster;
+
                 Destroy(gameObject);
                 Counter.gscore += 1; //add score
                 monsterDown = true;

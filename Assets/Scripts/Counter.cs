@@ -7,6 +7,7 @@ public class Counter : MonoBehaviour
 {
     public static int gscore = 0; 
     public string levelToLoad;
+    public int numMon;
 
     public GameObject portal;
     
@@ -19,7 +20,7 @@ public class Counter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gscore == 4){
+        if (gscore == numMon){
             portal.SetActive(true);
             //Application.LoadLevel(levelToLoad);
         }

@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_Night.unity
     guid: 2912b4d107388144d8e57396301eafe4
+  - enabled: 1
+    path: Assets/Scenes/FailScreen.unity
+    guid: f2e7278160a3adf428ec2df6e62aa59a
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: a128c10444b1a4673969d01bbdd6c90c
   m_configObjects: {}

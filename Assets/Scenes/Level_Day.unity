@@ -801,8 +801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 915d972d7a5894065856196b3b85a9db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  red: {fileID: 2100000, guid: e09971711135b4b8e98a72e2e6967a8e, type: 2}
-  blue: {fileID: 2100000, guid: 35390e95c72194d5fb530130dd94d53e, type: 2}
+  numOfMonster: 0.25
   damageIndicator: {fileID: 416550118}
   coolingDown: 1
   heart1: {fileID: 2111298188}
@@ -5398,8 +5397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 915d972d7a5894065856196b3b85a9db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  red: {fileID: 2100000, guid: e09971711135b4b8e98a72e2e6967a8e, type: 2}
-  blue: {fileID: 2100000, guid: 35390e95c72194d5fb530130dd94d53e, type: 2}
+  numOfMonster: 0.25
   damageIndicator: {fileID: 416550118}
   coolingDown: 1
   heart1: {fileID: 404890082}
@@ -6818,7 +6816,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 849504420}
   m_LocalRotation: {x: -0, y: 0.34802455, z: -0, w: 0.93748546}
-  m_LocalPosition: {x: 87.49, y: 151.31, z: 95.3069}
+  m_LocalPosition: {x: 87.49, y: 150.43, z: 95.3069}
   m_LocalScale: {x: 2.4061234, y: 3.1339345, z: 0.3736}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7616,8 +7614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 915d972d7a5894065856196b3b85a9db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  red: {fileID: 2100000, guid: e09971711135b4b8e98a72e2e6967a8e, type: 2}
-  blue: {fileID: 2100000, guid: 35390e95c72194d5fb530130dd94d53e, type: 2}
+  numOfMonster: 0.25
   damageIndicator: {fileID: 416550118}
   coolingDown: 1
   heart1: {fileID: 2116650918}
@@ -21649,6 +21646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: Start
+  numMon: 4
   portal: {fileID: 849504420}
 --- !u!114 &2006127171
 MonoBehaviour:
@@ -23425,8 +23423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 915d972d7a5894065856196b3b85a9db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  red: {fileID: 2100000, guid: e09971711135b4b8e98a72e2e6967a8e, type: 2}
-  blue: {fileID: 2100000, guid: 35390e95c72194d5fb530130dd94d53e, type: 2}
+  numOfMonster: 0.25
   damageIndicator: {fileID: 416550118}
   coolingDown: 1
   heart1: {fileID: 1249300961}
