@@ -17,7 +17,7 @@ public class InventoryEx : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (HitMonster.monsterDown == true){
+        if (HitMonster.monsterDown == true && Counter.gscore == 1){
             inventoryExplanation.SetActive(true);
             explanationOn = true;
             GlowButton.SetActive(true);
