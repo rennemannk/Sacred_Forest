@@ -113,7 +113,7 @@ public class Book : MonoBehaviour
     }
 
     // Hide or show the book.
-    private void toggleBookVisibility()
+    public void toggleBookVisibility()
     {
         book.SetActive(!book.activeInHierarchy);        
     }

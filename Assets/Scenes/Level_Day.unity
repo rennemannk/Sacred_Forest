@@ -28225,7 +28225,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2006127172}
+      objectReference: {fileID: 1320220139}
+    - target: {fileID: 2191704148306397104, guid: 317e6db1f0d0c439fb59978af1a290dd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: toggleBookVisibility
+      objectReference: {fileID: 0}
     - target: {fileID: 2191704148306397106, guid: 317e6db1f0d0c439fb59978af1a290dd,
         type: 3}
       propertyPath: m_Name
@@ -28340,7 +28345,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2006127172}
+      objectReference: {fileID: 1320220139}
+    - target: {fileID: 2191704148776294042, guid: 317e6db1f0d0c439fb59978af1a290dd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: toggleBookVisibility
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 317e6db1f0d0c439fb59978af1a290dd, type: 3}
 --- !u!1001 &8948445734867893570
