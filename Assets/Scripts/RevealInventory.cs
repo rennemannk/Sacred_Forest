@@ -9,11 +9,11 @@ public class RevealInventory : MonoBehaviour
     public bool InventoryOn = false;
 
 
-    public void InventoryButtonClick(){
-        if (InventoryOn == false){
+    public void Update(){
+        if (InventoryOn == false && Input.GetKeyDown(KeyCode.P)){
             Inventory.SetActive(true);
         }
-        else if (InventoryOn == true){
+        else if (InventoryOn == true && Input.GetKeyDown(KeyCode.P)){
             Inventory.SetActive(false);
         }
     }
