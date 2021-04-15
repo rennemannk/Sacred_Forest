@@ -21,6 +21,8 @@ public class HitMonster : MonoBehaviour
     public GameObject heart2;
     public GameObject heart3;
 
+    public AudioClip captured;
+
     [Tooltip("The book")]
     public Book book;
     [Tooltip("The type or category of creature")]
@@ -48,10 +50,13 @@ public class HitMonster : MonoBehaviour
              
                 damageIndicator.fillAmount += numOfMonster;
 
+                AudioSource.PlayClipAtPoint(captured, transform.position);
+
                 Destroy(gameObject);
                 Counter.gscore += 1; //add score
                 monsterDown = true;
                 Destroy(heart1);
+
                 this.book.FoundCreature(this.creatureType);
             }
         }
