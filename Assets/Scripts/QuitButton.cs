@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class QuitButton : MonoBehaviour
 {
-    
- public void Exit()
- {
-     Debug.Log("has quited");
-     Application.Quit();
- }
+    public void Exit()
+    {
+        Debug.Log("has quited");
+        Application.Quit();
+        }
 }
