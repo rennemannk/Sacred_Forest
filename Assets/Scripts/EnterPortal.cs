@@ -10,7 +10,7 @@ public class EnterPortal : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
             Application.LoadLevel(levelToLoad);
         }
     }
