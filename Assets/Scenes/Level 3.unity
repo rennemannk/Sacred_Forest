@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.39627513, g: 0.67177147, b: 0.86632687, a: 1}
+  m_IndirectSpecularColor: {r: 0.39625615, g: 0.67180574, b: 0.8663715, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8675,7 +8675,7 @@ Canvas:
   m_GameObject: {fileID: 867281482}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 2142126752}
   m_PlaneDistance: 1
   m_PixelPerfect: 0
@@ -19730,7 +19730,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2006127172}
+      objectReference: {fileID: 1320220139}
+    - target: {fileID: 2191704148306397104, guid: 317e6db1f0d0c439fb59978af1a290dd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: toggleBookVisibility
+      objectReference: {fileID: 0}
     - target: {fileID: 2191704148306397106, guid: 317e6db1f0d0c439fb59978af1a290dd,
         type: 3}
       propertyPath: m_Name
@@ -19845,6 +19850,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2006127172}
+      objectReference: {fileID: 1320220139}
+    - target: {fileID: 2191704148776294042, guid: 317e6db1f0d0c439fb59978af1a290dd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: toggleBookVisibility
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 317e6db1f0d0c439fb59978af1a290dd, type: 3}
