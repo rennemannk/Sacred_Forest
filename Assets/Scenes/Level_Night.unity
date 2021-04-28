@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.069586456, g: 0.13933975, b: 0.18570417, a: 1}
+  m_IndirectSpecularColor: {r: 0.06940223, g: 0.13922942, b: 0.18565616, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9471,7 +9471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b69a6fdb11af51a479b041cb82391b7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 120
+  timeRemaining: 30
   timerIsRunning: 0
   timeText: {fileID: 1923859867}
   levelToLoad: FailScreen
