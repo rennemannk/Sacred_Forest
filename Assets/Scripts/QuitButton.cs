@@ -4,9 +4,18 @@ using UnityEngine;
 
 public class QuitButton : MonoBehaviour
 {
-    public void Exit()
+
+    public string levelToLoad;
+
+    public void Update()
     {
-        Debug.Log("has quited");
-        Application.Quit();
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Debug.Log("has quited");
+            Application.Quit();
         }
+        if (Input.GetKeyDown(KeyCode.P) ) {
+            Application.LoadLevel(levelToLoad); }
+            
+    }
 }

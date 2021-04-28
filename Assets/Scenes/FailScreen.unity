@@ -413,7 +413,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 261.0001, y: 26.393204}
+  m_AnchoredPosition: {x: 234, y: 22}
   m_SizeDelta: {x: 1000, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &274253422
@@ -435,7 +435,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Play Again
+  m_text: Play Again 'P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2813542ec7ef2044585b3cc8d00f545b, type: 2}
   m_sharedMaterial: {fileID: 898002087850734007, guid: 2813542ec7ef2044585b3cc8d00f545b,
@@ -463,8 +463,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75
-  m_fontSizeBase: 75
+  m_fontSize: 67
+  m_fontSizeBase: 67
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -751,6 +751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 463ba5ab9b2194420ae5d01be67111ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelToLoad: 
 --- !u!114 &773287393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1100,7 +1101,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 407, y: 26.393204}
+  m_AnchoredPosition: {x: 336, y: 26.393204}
   m_SizeDelta: {x: 1000, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1145867350
@@ -1122,7 +1123,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Exit
+  m_text: Exit 'Q'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2813542ec7ef2044585b3cc8d00f545b, type: 2}
   m_sharedMaterial: {fileID: 898002087850734007, guid: 2813542ec7ef2044585b3cc8d00f545b,
@@ -1234,7 +1235,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 417.00012, y: 14}
+  m_AnchoredPosition: {x: 335, y: 20}
   m_SizeDelta: {x: 1000, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1452337238
@@ -1256,7 +1257,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Exit
+  m_text: Exit 'Q'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2813542ec7ef2044585b3cc8d00f545b, type: 2}
   m_sharedMaterial: {fileID: 898002087850734007, guid: 2813542ec7ef2044585b3cc8d00f545b,
@@ -1483,6 +1484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 463ba5ab9b2194420ae5d01be67111ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelToLoad: Start
 --- !u!1 &1873729056
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,7 +1612,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 271, y: 16}
+  m_AnchoredPosition: {x: 229, y: 19}
   m_SizeDelta: {x: 1000, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1945819579
@@ -1632,7 +1634,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Play Again
+  m_text: Play Again 'P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2813542ec7ef2044585b3cc8d00f545b, type: 2}
   m_sharedMaterial: {fileID: 898002087850734007, guid: 2813542ec7ef2044585b3cc8d00f545b,
@@ -1660,8 +1662,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75
-  m_fontSizeBase: 75
+  m_fontSize: 67
+  m_fontSizeBase: 67
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

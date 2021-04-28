@@ -69,7 +69,7 @@ public class Book : MonoBehaviour
         this.toggleCardsVisibility();
 
         // Hide or show the book when clicking 
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.I))
         {
             this.toggleBookVisibility();
         }
