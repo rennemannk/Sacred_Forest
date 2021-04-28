@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.069636256, g: 0.13936362, b: 0.18571547, a: 1}
+  m_IndirectSpecularColor: {r: 0.06940223, g: 0.13922942, b: 0.18565616, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -455,12 +455,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000014173955460, guid: 12c49111266b30b4d855c0c5b77eb3fe,
     type: 3}
   m_PrefabInstance: {fileID: 17716952}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &19561266 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2191704148776294044, guid: 317e6db1f0d0c439fb59978af1a290dd,
-    type: 3}
-  m_PrefabInstance: {fileID: 2191704148794535342}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &21754323
 PrefabInstance:
@@ -17665,7 +17659,6 @@ GameObject:
   - component: {fileID: 2006127170}
   - component: {fileID: 2006127171}
   - component: {fileID: 2006127172}
-  - component: {fileID: 2006127173}
   - component: {fileID: 2006127168}
   m_Layer: 0
   m_Name: Game Manager
@@ -17747,21 +17740,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Inventory: {fileID: 958434805}
   InventoryOn: 0
---- !u!114 &2006127173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2006127167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e53f269abeccbf94d8be78f2a82e1816, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventoryExplanation: {fileID: 0}
-  explanationOn: 0
-  GlowButton: {fileID: 19561266}
 --- !u!1001 &2010253900
 PrefabInstance:
   m_ObjectHideFlags: 0

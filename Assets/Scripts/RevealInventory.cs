@@ -10,10 +10,10 @@ public class RevealInventory : MonoBehaviour
 
 
     public void Update(){
-        if (InventoryOn == false && Input.GetKeyDown(KeyCode.P)){
+        if (InventoryOn == false && Input.GetKeyDown(KeyCode.I)){
             Inventory.SetActive(true);
         }
-        else if (InventoryOn == true && Input.GetKeyDown(KeyCode.P)){
+        else if (InventoryOn == true && Input.GetKeyDown(KeyCode.I)){
             Inventory.SetActive(false);
         }
     }

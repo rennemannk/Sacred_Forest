@@ -5,7 +5,7 @@ using UnityEngine;
 public class InventoryEx : MonoBehaviour
 {
     public GameObject inventoryExplanation;
-    public bool explanationOn = false;
+    public static bool explanationOn = false;
     public GameObject GlowButton;
 
     // Start is called before the first frame update
@@ -21,12 +21,12 @@ public class InventoryEx : MonoBehaviour
             inventoryExplanation.SetActive(true);
             explanationOn = true;
             GlowButton.SetActive(true);
-            if (Input.GetKeyDown(KeyCode.F)){
-                inventoryExplanation.SetActive(false);
-                explanationOn = false;
-                GlowButton.SetActive(false);
-                HitMonster.monsterDown = false;
+        }
+        if (Input.GetKeyDown(KeyCode.F)){
+            Destroy(inventoryExplanation);
+            explanationOn = false;
+            GlowButton.SetActive(false);
+            HitMonster.monsterDown = false;
             }
         }  
     }
-}

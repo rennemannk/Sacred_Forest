@@ -19,6 +19,10 @@ public class RemoveText : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F)){
             Destroy(IntroText);
             TextOn = false;
-    }
+        }
+        else if (InventoryEx.explanationOn == true && TextOn == true){
+            Destroy(IntroText);
+            TextOn = false;
+        }
     }
 }
