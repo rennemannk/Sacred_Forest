@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.06940223, g: 0.13922942, b: 0.18565616, a: 1}
+  m_IndirectSpecularColor: {r: 0.069636256, g: 0.13936362, b: 0.18571547, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -17019,7 +17019,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '"I" to open Inventory'
+  m_Text: '"i" to open Inventory'
 --- !u!222 &1904131232
 CanvasRenderer:
   m_ObjectHideFlags: 0
