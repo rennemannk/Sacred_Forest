@@ -807,7 +807,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3188f7e8af1734a0085d269d2335ea71, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a4b1e454a3d414573948f3c147fb09f3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1463,6 +1463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 463ba5ab9b2194420ae5d01be67111ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelToLoad: 
 --- !u!199 &7881721923230540890
 ParticleSystemRenderer:
   serializedVersion: 6
